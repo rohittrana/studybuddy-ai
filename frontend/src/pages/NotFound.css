@@ -1,0 +1,21 @@
+.not-found {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.not-found__hand {
+  font-family: var(--font-hand);
+  font-size: 1.6rem;
+  color: var(--highlight);
+}
+
+.not-found h1 {
+  font-size: 4rem;
+  color: var(--ink);
+}

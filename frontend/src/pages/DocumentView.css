@@ -1,0 +1,77 @@
+.doc-view {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.doc-view--loading {
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.doc-view__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.doc-view__back {
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  width: fit-content;
+}
+
+.doc-view__back:hover {
+  color: var(--ink);
+}
+
+.doc-view__header h1 {
+  color: var(--ink);
+  font-size: 1.7rem;
+}
+
+.doc-view__processing {
+  background: rgba(232, 197, 71, 0.1);
+  border: 1px solid rgba(232, 197, 71, 0.3);
+  color: var(--highlight);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}
+
+.doc-view__tabs {
+  display: flex;
+  gap: 0.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.doc-view__tab {
+  background: none;
+  border: none;
+  color: var(--ink-muted);
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transform: translateY(1px);
+}
+
+.doc-view__tab:hover {
+  color: var(--ink);
+}
+
+.doc-view__tab--active {
+  color: var(--highlight);
+  border-bottom-color: var(--highlight);
+}
+
+.doc-view__content {
+  min-height: 300px;
+}

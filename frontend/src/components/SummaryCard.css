@@ -1,0 +1,43 @@
+.summary {
+  padding: 1.5rem;
+}
+
+.summary--empty {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.summary__hand {
+  font-family: var(--font-hand);
+  font-size: 1.4rem;
+  color: var(--highlight);
+  margin-bottom: 1rem;
+}
+
+.summary__error {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+
+.summary__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.summary__header h3 {
+  color: var(--ink);
+}
+
+.summary__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.summary__body p {
+  color: var(--ink);
+  font-size: 0.93rem;
+}

@@ -1,0 +1,37 @@
+.upload {
+  border: 2px dashed var(--line);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  background: var(--surface);
+}
+
+.upload:hover,
+.upload--active {
+  border-color: var(--highlight);
+  background: var(--surface-raised);
+}
+
+.upload__icon {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.upload__title {
+  color: var(--ink);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.upload__hint {
+  font-size: 0.85rem;
+}
+
+.upload__error {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
