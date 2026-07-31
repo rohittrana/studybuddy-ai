@@ -209,4 +209,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙋 Author
 
-Built by [Your Name](https://github.com/YOUR-USERNAME) as a personal project.
+Built by [Rohit Rana](https://github.com/YOUR-USERNAME) as a personal project.
